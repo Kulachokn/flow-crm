@@ -1,6 +1,6 @@
 
 
-export default async function Home() {
+export default async function Dashboard() {
   return (
     <main>
       <h1>Flow-CRM</h1>
