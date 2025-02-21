@@ -1,10 +1,9 @@
 
 
-export default async function Dashboard() {
+export default async function Home() {
   return (
     <main>
-      <h1>Flow-CRM</h1>
-      <h2>Dashboard</h2>
+      <h1>Тут буде реєстрація</h1>
     </main>
   );
 }
