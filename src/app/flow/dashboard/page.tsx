@@ -1,4 +1,5 @@
 // import prisma from "../lib/db";
+// import UserButton from "@/app/ui/components/login/user-button";
 
 export default async function Dashboard () {
   
@@ -7,7 +8,7 @@ export default async function Dashboard () {
       <h1 className="text-4xl font-bold mb-8">
         Dashboard
       </h1>
-      
+      {/* <UserButton /> */}
     </div>
   );
 }

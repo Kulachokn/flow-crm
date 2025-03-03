@@ -1,5 +1,5 @@
 "use server"
-import prisma from "../lib/db";
+import prisma from "../../lib/db";
 
 export default async function Posts() {
   const staff = await prisma.staff.findMany();
